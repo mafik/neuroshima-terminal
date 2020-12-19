@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/viewpagerindicator-b027b1f3e85cdf6423cc59b33af984d0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/actionbarsherlock-101925804c5ace83ad8bf9659b62e5a5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/droid-374cf817574fbef8c8381a5492a89261.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/holoeverywhere-32f7fc954df2af5db5e15b054295cfc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-io-2.4-cfe5b156cf32ad1f92c8e4502c29ead4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-f0665c66868c46adf0790ebb75b3cf5d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-7da002dd02851026f3eb399dc37fdb05.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

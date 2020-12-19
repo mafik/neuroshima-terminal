@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false" >
+        
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+	        <include layout="@layout/tests"/>
+	        
+	        <include layout="@layout/segments"/>
+	        
+	        <include layout="@layout/distance"/>
+	        
+	        <include layout="@layout/location"/>
+	        
+	        <include layout="@layout/cover"/>
+        
+	        <include layout="@layout/movement"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+	        
+	        <include layout="@layout/percent_table"/>
+	        
+	        <include layout="@layout/special_rules"/>
+	        
+	        <include layout="@layout/hit_locations"/>
+	        
+	        <include layout="@layout/wounds"/>
+        
+        	<include layout="@layout/hand_to_hand"/>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

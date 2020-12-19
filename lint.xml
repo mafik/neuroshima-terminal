@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedText" severity="ignore">
+        <ignore path="res/layout/combat.xml" />
+    </issue>
+    <issue id="TooManyViews">
+        <ignore path="res/layout/distance.xml" />
+    </issue>
+</lint>

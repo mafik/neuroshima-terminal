@@ -1,0 +1,124 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="Shortcut icon" href="favicon.ico" />
+<title>Neuroshima: Terminal Taktyczny</title>
+<style>
+  @font-face {
+  font-family: Zombified;
+  src: url("fonts/ZOMBIFIED.ttf") format("truetype");
+  }
+  @font-face {
+  font-family: UpperSide;
+  src: url("fonts/UpperSide.ttf") format("truetype");
+  }
+  html {
+  background: url('img/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  h1 {
+  font-family: Zombified, Impact;
+  font-weight: normal;
+  font-size: 100px;
+  text-shadow: 0 0 20px white;
+  margin: 0;
+  padding: 50px 50px 0px 20px;
+  position: relative;
+  z-index: 10;
+  }
+  #shortdesc {
+  font-family: UpperSide, Comic Sans MS, Comic, cursive;
+  color: #black;
+  text-shadow: 0 0 5px white;
+  font-size: 30px;
+  margin-left: 50px;
+  }
+  #logo {
+  position: absolute;
+  top: -150px;
+  right: 0px;
+  overflow: hidden;
+  }
+  #devices {
+  width: 50%;
+  float: right;
+  position: relative;
+  }
+  #features {
+  margin: 0px 0 0 0;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-family: UpperSide, Comic Sans MS, Comic, cursive;
+  list-style: none;
+  font-size: 40px;
+  line-height: 1.5em;
+  }
+  #playlink {
+  margin-left: 50px;
+  }
+  #playlink img {
+  vertical-align: middle;
+  margin: 10px;
+  }
+  @media all and (max-width: 1300px) {
+  #features {
+  font-size: 30px;
+  }
+  }
+  @media all and (max-width: 1200px) {
+  #shortdesc {
+  font-size: 20px;
+  }
+  }
+  @media all and (max-width: 1000px) {
+  html {
+  text-align: center;
+  }
+  h1 {
+  padding: 20px;
+  }
+  #shortdesc {
+  font-size: 30px;
+  }
+  #devices {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  float: none;
+  }
+  #logo {
+  left: 25%;
+  width: 50%;
+  }
+  #features {
+  font-size: 50px;
+  }
+  }
+</style>
+<img src="img/logo.png" id="logo">
+<h1>Terminal Taktyczny</h1>
+<img src="img/devices.png" id="devices">
+<div id="shortdesc">Fanowski dodatek do gry Neuroshima</div>
+<a id="playlink" href="http://play.google.com/store/apps/details?id=eu.mrogalski.neuroshimaterminal">
+  <img alt="Android app on Google Play"
+       src="http://www.android.com/images/brand/android_app_on_play_logo_large.png" />
+  <g:plusone href="http://play.google.com/store/apps/details?id=eu.mrogalski.neuroshimaterminal"></g:plusone>
+</a>
+<ul id="features">
+  <li>Zestawienie zasad walki</li>
+  <li>Tabele modyfikatorów</li>
+  <li>Mapa Zasranych Stanów Ameryki</li>
+  <li>Spis przedmiotów i cen</li>
+</ul>
+
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pl'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>

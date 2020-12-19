@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+    
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Test otwarty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Rzut bez PT - najgorszą kość ignorujemy, pozostałe dwie obniżamy za pomocą Umiejętności. Sprawdzamy ile oczek w zapasie pozostało na gorszej z dwóch kości. Oczka w zapasie to Punkty Sukcesu."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Test przeciwstawny" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Obaj przeciwnicy wykonują testy Otwarte, a następnie porównują osięgnięte Punkty Sukcesu. Otrzymana różnica to Punkty Przewagi."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Ustalanie Inicjatywy"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Walczący wykonują Otwarty Test Zręczności. Mogą obniżać je za pomocą umiejętności walki, z których zaraz skorzystają. Wyniki określają kolejność Inicjatywy - im więcej Punktów Sukcesu, tym wyższa Inicjatywa."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

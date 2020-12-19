@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Walka wręcz"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Obaj walczący wykonują rzut 3k20 (na inicjatywę). Następnie gracz z inicjatywą wybiera kostkę, którą atakuje (najlepiej z sukcesem). Aby odeprzeć atak przeciwnik musi dołożyć własną kostkę z sukcesem. W razie gdy atakujący nie ma kostki z sukcesem, przeciwnik może odebrać mu inicjatywę."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Ataki za 1s, 2s i 3s"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Atakujący może wykorzystać do ataku więcej niż jedną kostkę z sukcesem. Do odparcia takiego ataku przeciwnik potrzebuje tyle samo kostek z sukcesami. Jeśli nie uda mu się go odeprzeć broń zadaje odpowiednio większe obrażenia."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Manewry w walce wręcz"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Walczący może zdecydować się skorzystać z dodatkowych zasad, co deklaruje na początku każdej tury, w której korzysta z manewru."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Zwiększone tempo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Walczący, który posiada Inicjatywę, może zdecydować się na zwiększenie tempa walki. Podnosi PT własnych testów akcji, a jego przeciwnik będzie musiał zdawać testy na tym samym, podwyższonym PT. Walczący może zwiększyć PT maksymalnie o tyle poziomów, ile posiada punktów używanej umiejętności walki (Bijatyka lub Broń ręczna) i nie więcej niż 3."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Szarża"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Szarżę można zastosować na początku walki, podczas sprawdzania inicjatywy testowanej na Zręczności. Walczący otrzymuje bonus od +1 do +3 do Zręczności podczas testu Inicjatywy, ale w przypadku przegranej (w stosunku do swojego przeciwnika) otrzymuje identyczną karę do Zręczności na czas pierwszej tury. Nie może w niej użyć żadnych defensywnych manewrów."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Furia"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Walczący otrzymuje bonus +2 do Zręczności w ataku, ale każde przejęcie inicjatywy przez przeciwnika jest jednocześnie celnym ciosem."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Pełna obrona"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Walczący otrzymuje bonus +2 do Zręczności w obronie, za to aby przejąć Inicjatywę musi poświęcić na to aż dwa sukcesy (czyli musi mieć przewagę 2 własnych sukcesów w obronie pod rząd przeciwko 2 porażkom przeciwnika w ataku)."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
